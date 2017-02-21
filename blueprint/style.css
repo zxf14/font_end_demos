@@ -1,0 +1,24 @@
+.bluePrint {
+    width: 180px;
+    height: 120px;
+    background-color:#269;
+    background-image: linear-gradient(red 1px, transparent 0),
+                      linear-gradient(90deg, yellow 1px, transparent 0);
+    background-size:20px 20px;
+}
+
+.bluePrint2 {
+    width: 180px;
+    height: 120px;
+    background-color:#269;
+    background-image: linear-gradient(white 2px, transparent 0),
+                      linear-gradient(90deg, white 2px, transparent 0),
+                      linear-gradient(rgba(255,255,255,.3) 1px, transparent 0),
+                      linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 0);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+div{
+	margin: 20px;
+}
