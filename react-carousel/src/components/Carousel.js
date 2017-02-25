@@ -36,8 +36,8 @@ class ToggleUnit extends Component{
 
   render() {
     return (
-      <div><a href='' className='prev arrow' onClick={this.toPrev}>&lt;</a>
-        <a href='' className='next arrow' onClick={this.toNext}>&gt;</a></div>
+      <div><a href='' className='prev arrow' onClick={this.toPrev}>{'<'}</a>
+        <a href='' className='next arrow' onClick={this.toNext}>{'>'}</a></div>
     );
   }
 }
@@ -147,6 +147,11 @@ export default class Carousel extends Component{
 
   componentDidMount(){
     this.play();
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.timer);
+    this.timer=null;
   }
 
   render() {
