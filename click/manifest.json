@@ -1,0 +1,13 @@
+{ 
+  "name": "click",
+  "version": "1.0",
+  "manifest_version":2,
+  "description": "Red packet",
+  "permissions": ["http://*/*"],
+  "content_scripts":[
+  {
+      "matches":["https://www.taobao.com/markets/20151212/home/main-wf?mode=wow&refpid=mm_14428609_3290185_40982810&eh=fPCHhJ44zFBNUyfOh2k%2BHiZfdLHx8kQ31QInGOP2KCpZ4u2OgYu3W%2FmbDHCJJEP7X9iCfKlIJzkveuFnQMBXxMkbLKg8nWNj&ali_trackid=2:mm_14428609_3290185_40982810:1449725091_258_1788766137"],
+      "js":["jquery.min.js","main.js"]
+  }
+  ]
+}
