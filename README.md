@@ -4,3 +4,5 @@
 - flex-display:弹性盒子
 	- 骰子
 	- 圣杯布局
+- defer-img-load
+	- 推迟加载图片
